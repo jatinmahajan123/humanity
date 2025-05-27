@@ -4,13 +4,10 @@ import {
   Container,
   Typography,
   Grid,
-  useTheme,
 } from '@mui/material';
 import { motion } from 'framer-motion';
 
 const About = () => {
-  const theme = useTheme();
-
   return (
     <Box
       id="about"

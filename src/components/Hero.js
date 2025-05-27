@@ -12,7 +12,6 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Hero = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
   const handleScheduleCall = () => {
     // Add your scheduling logic here

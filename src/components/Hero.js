@@ -4,15 +4,11 @@ import {
   Container,
   Typography,
   Button,
-  useTheme,
-  useMediaQuery,
 } from '@mui/material';
 import { motion } from 'framer-motion';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Hero = () => {
-  const theme = useTheme();
-
   const handleScheduleCall = () => {
     // Add your scheduling logic here
     window.open('https://calendly.com/humanityfounders/30min', '_blank');
